@@ -1,0 +1,22 @@
+[
+  {
+    "id":1,
+    "name":"resource1"
+  },
+  {
+    "id":2,
+    "name":"resource2",
+    "fields":[
+      {"id":1,"name":"field1","type":"String"},
+      {"id":2,"name":"field2","type":"String"}
+    ]
+  },
+  {
+    "id":3,
+    "name":"resource3",
+    "fields":[
+      {"id":1,"name":"field1","type":"String"},
+      {"id":2,"name":"field2","type":"String"}
+    ]
+  }
+]

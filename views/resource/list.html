@@ -1,0 +1,23 @@
+<h3>{{resource.name}}</h3>
+<table class=".table-striped">
+<thead>
+<tr>
+  <th>
+    ID
+  </th>
+  <th ng-repeat="field in resource.fields">
+    {{field.name}}
+  </th>
+</tr>
+</thead>
+<tbody>
+<tr ng-repeat="r in resource.list">
+  <td>
+    <a href="#/resource/{{r.name}}/{{r.id}}">{{r.name}}</a>
+  </td>
+  <td ng-repeat="f in resource.fields">
+    {{r[f.name]}}
+  </td>
+</tr>
+</tbody>
+</table>
